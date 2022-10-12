@@ -161,7 +161,7 @@ img {
   float: right;
   margin:0 0 0 auto;
   /* margin: 0 0 0 15px;*/
-  padding-right: 10%;
+  padding-right: 10px;
   
 }
 
@@ -246,4 +246,10 @@ footer{
  /* background-color: #C689C6;*/
  background-image: linear-gradient( #937DC2,#C689C6);
   background-position: center;
+}
+
+.datele{
+  flex: 0 0 auto;
+  padding-left: 15%;
+  padding-right: 15%;
 }
