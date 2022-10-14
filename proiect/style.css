@@ -157,6 +157,7 @@ flex-wrap: nowrap;
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .hard {
@@ -165,6 +166,7 @@ flex-wrap: nowrap;
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .floatRight {
@@ -272,6 +274,12 @@ footer {
 .container1{
   width:95%;
   margin: 0 16px;
+}
+
+.container-imagine{
+  display: flex;
+  justify-content: center;
+  width: 30%;
 }
 
 
