@@ -132,12 +132,23 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 1080px) {
   .prev,
   .next,
   .text {
     font-size: 11px;
   }
+  .container-imagine{
+    width:100%
+  }
+ .soft{
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+ .hard{
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
   /*main{
 flex-wrap: nowrap;
   }
@@ -153,7 +164,7 @@ flex-wrap: nowrap;
 
 .soft {
   display: flex;
-  height: 150px;
+  /*height: 95%;*/
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
@@ -162,19 +173,20 @@ flex-wrap: nowrap;
 
 .hard {
   display: flex;
-  height: 150px;
+  /*height: 95%;*/
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 32px;
 }
 
+/*
 .floatRight {
   float: right;
   margin: 0 0 0 auto;
   /* margin: 0 0 0 15px;*/
   padding-right: 2px;
-}
+}*/
 
 .separator {
   background-color: #937dc2;
@@ -238,16 +250,6 @@ flex-wrap: nowrap;
   color: white;
 }
 
-.lista {
-  padding-left: 10%;
-  padding-top: 2%;
-  /* margin: 0 0 0 auto;
-  float: right;*/
-  margin-left: 5%;
-  /*padding-bottom: 13%;
-  margin-bottom:13% ;*/
-}
-
 footer {
   padding-bottom: 2%;
   margin: 0;
@@ -259,13 +261,7 @@ footer {
   background-position: center;
 }
 
-.datele1 {
-  flex: 0 0 auto;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-.datele2 {
+.datele {
   flex: 0 0 auto;
   padding-left: 15%;
   padding-right: 15%;
@@ -274,6 +270,7 @@ footer {
 .container1{
   width:95%;
   margin: 0 16px;
+
 }
 
 .container-imagine{
